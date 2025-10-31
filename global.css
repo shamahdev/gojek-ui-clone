@@ -6,8 +6,14 @@
 
 :root {
     --primary: #00AA13;
+    --blue: #00ABD5;
 }
 
 @theme inline {
     --color-primary: var(--primary);
+    --color-blue: var(--blue);
+}
+
+html, body, #root {
+    font-family: "PlusJakartaSans", sans-serif;
 }

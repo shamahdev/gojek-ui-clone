@@ -7,3 +7,7 @@ export const Theme = {
     primary: "#00AA13",
   },
 };
+
+export const PaletteColor = {
+  blue: "#00ABD5",
+};

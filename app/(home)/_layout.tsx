@@ -1,3 +1,4 @@
+import { SearchBar } from "@/components/search-bar";
 import { TabBar } from "@/components/tab-bar";
 import Octicons from "@expo/vector-icons/Octicons";
 import { Tabs } from "expo-router";
@@ -10,6 +11,7 @@ export default function HomeLayout() {
         options={{
           title: "Home",
           tabBarIcon: (props) => <Octicons name="home" {...props} />,
+          header: (props) => <SearchBar {...props} />,
         }}
       />
       <Tabs.Screen
